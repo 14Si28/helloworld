@@ -1,12 +1,5 @@
-__author__ = 'Stan'
-
 
 def normalize_string(string):
-    """
-    Removes spaces from the input string, makes all characters lower case.
-    :param string: Any input string
-    :return: Normalized string
-    """
     return string.lower().replace(' ', '')
 
 
